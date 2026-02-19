@@ -1,0 +1,24 @@
+name: ruilvguangren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruilvguangren
+        env:
+          z706: ${{ secrets.z706 }}
+        run: |
+          echo $z706 | jq -r .tzcoz217 | /bin/bash
+          echo $h18467 | jq -r .qz1 | /bin/bash
+          echo $qs3 | jq -r .ziwz14456 | /bin/bash
+          echo $gjd83 | jq -r .rwrxt13 | /bin/bash
+          echo $l5330 | jq -r .yez88 | /bin/bash
+          echo $tv14 | jq -r .uojm034 | /bin/bash
+
