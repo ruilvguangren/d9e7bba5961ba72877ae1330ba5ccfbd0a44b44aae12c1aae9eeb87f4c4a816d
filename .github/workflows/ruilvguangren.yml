@@ -1,24 +1,27 @@
 name: ruilvguangren
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
+    - cron: '23 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ruilvguangren
         env:
-          z706: ${{ secrets.z706 }}
+          yg8: ${{ secrets.yg8 }}
         run: |
-          echo $z706 | jq -r .tzcoz217 | /bin/bash
-          echo $h18467 | jq -r .qz1 | /bin/bash
-          echo $qs3 | jq -r .ziwz14456 | /bin/bash
-          echo $gjd83 | jq -r .rwrxt13 | /bin/bash
-          echo $l5330 | jq -r .yez88 | /bin/bash
-          echo $tv14 | jq -r .uojm034 | /bin/bash
+          echo $yg8 | jq -r .emu12923 | /bin/bash
+          echo $hsqd246 | jq -r .vg08667 | /bin/bash
+          echo $zp9112 | jq -r .fiizu6765 | /bin/bash
+          echo $qt8 | jq -r .lue94 | /bin/bash
+          echo $d10197 | jq -r .vg62 | /bin/bash
+          echo $sq8 | jq -r .ubjgt240 | /bin/bash
+          echo $ttjpo91176 | jq -r .xlf862 | /bin/bash
+          echo $yrr886 | jq -r .cj725 | /bin/bash
+          echo $rbl209 | jq -r .bcznk4913 | /bin/bash
+          echo $c9 | jq -r .e9085 | /bin/bash
+          echo $wnbs97149 | jq -r .yx26475 | /bin/bash
 
